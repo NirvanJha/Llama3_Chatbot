@@ -25,7 +25,7 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # Run Ollama
-ollama run llama3:8b
+ollama run gemma3:latest
 
 # Run Streamlit app
 streamlit run app.py
